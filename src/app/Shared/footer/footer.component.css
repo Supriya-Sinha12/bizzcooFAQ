@@ -1,0 +1,17 @@
+.footer{
+    background-color:#343a40!important;
+    padding: .5%;
+}
+.footer .social-links{
+    margin-bottom: 30px;
+}
+.footer .social-link a, svg{
+	max-width: 25px;
+    margin-right: 10px;
+    color: white;
+}
+.recaptcha{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}

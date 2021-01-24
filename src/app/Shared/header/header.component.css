@@ -1,0 +1,23 @@
+:host {
+    min-height: 90px;
+    display: block;
+}
+.logo{
+	max-width: 150px;
+}
+.navbar{
+    padding: .5%;
+    width: auto;
+}
+.navbar .navbar-brand{
+    margin-right: 10px;
+    padding-right: 90px;
+}
+.navbar-nav li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+.navbar-nav .nav-item .nav-link{
+color: white;
+}
+

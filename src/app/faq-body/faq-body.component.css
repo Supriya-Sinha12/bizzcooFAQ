@@ -1,0 +1,40 @@
+.faq-page-wrap{
+	min-height: 600px;
+}
+
+.faq-page-wrap h2{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 40px;
+	color: white;
+}
+.faq-page-wrap .thumb-wrapper{
+	width: 100%;
+	margin: auto;
+	padding: auto;
+	margin-bottom: 100px;
+}
+
+.search-button{
+	border:none;
+	background-color: #0b0c0c;
+}
+
+.search-button:hover{
+	background-color:#0064d2 ;
+}
+
+.search-button svg{
+	width: 35px;
+	height: 40px;
+	margin: 2px;
+	fill: white;
+}
+.form-inline{
+	justify-content: center;
+}
+.form-control{
+	width: 500px;
+	height: 55px;
+	border-color: black;
+}

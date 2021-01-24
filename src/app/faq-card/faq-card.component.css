@@ -1,0 +1,13 @@
+.card{
+	margin-top: 40%;
+	margin-bottom: 1px;
+    height: 160px;
+    border-radius: 3%;
+    border-color:rgb(207, 196, 175);
+	
+}
+.card-details{
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+}
