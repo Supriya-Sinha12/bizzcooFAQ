@@ -1,35 +1,47 @@
 .faq-category-wrap{
-    min-height: 500px;
+	min-height: 500px;
+	padding-top: 15px;
 }
  .faq-category-wrap .category{
 	width: 100%;
 	margin: auto;
-	margin-top: 20%;
 	margin-bottom: 100px;
 	/* background-color: #dbdfe3; */
-	background-color: #ebf0f0;
-    border-radius: 12px;
+	/* background-color: #ebf0f0; */
+	/* border-radius: 12px; */
+	/* border-right:2px solid #ccc; */
 }    
 .category ul{
 	margin: 0;
-    padding: 13px;
-	border-top: 1px solid #334739;	
+    padding: 10px 0 ;
+	/* border-top: 1px solid #334739;	 */
 	list-style: none;    
 }
+.category > ul{
+	border-right:2px solid #ccc;
+}
+
 .category li{
 	margin: 0;
-    padding-left: 2px;
+	padding-left: 2px;
+	padding: 3% 0;
 }
+
 .cat-list-description{
-margin-top: 5%;
-background-color: #ebf0f0;
-border-radius: 12px;
-padding: 1%;
+	/* background-color: #ebf0f0; */
+	border-radius: 12px;
+	padding: 20px 30px;
 }
 .cat-list-description h4{
 	margin-bottom: 16px;
 }
-
+.category ul ul.subCat{
+	padding-left: 15px;
+}
+.category ul ul.subCat li{
+	padding-left: 15px;
+	padding: 1.5% 0;
+}
 .search-button{
 	border:none;
 	background-color: #0b0c0c;
@@ -52,4 +64,25 @@ padding: 1%;
 	width: 500px;
 	height: 55px;
 	border-color: black;
+}
+h5.question{
+	margin-bottom: 10px;
+	color: #a37219;
+}
+.answer{
+	margin-bottom: 20px;
+}
+.card, .card-header{
+	background-color: transparent;
+    border: none;
+
+}
+.card-header button{
+	padding: 0;
+}
+.card-header button:focus{
+	box-shadow: none;
+}
+.card-body{
+	padding:0 1.25rem;
 }

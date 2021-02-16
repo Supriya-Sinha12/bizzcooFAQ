@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
+
 @Component({
   selector: 'app-faq-body',
   templateUrl: './faq-body.component.html',
@@ -7,22 +8,32 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class FaqBodyComponent implements OnInit {
  
+  id: number;
+  private sub: any;
 
   categoriescard:any =[
     {
-        "name": "Getting Started"
+        "name": "Getting Started",
+        "subCat":"gettingStarted"
     },
     {
-        "name":"For Consultant Companies"
+        "name":"For Consultant Companies",
+        "subCat":"consultantCompanies"
     },
     {
-        "name":"For Consultants"
+        "name":"For Consultants",
+        "subCat":"forConsultants"
     },
     {
-        "name":"For Enterprises"
+        "name":"For Enterprises",
+        "subCat":"forEnterprises"
     }
 ]    
-  constructor() { }
+  constructor(
+
+    
+
+  ) { }
 
   ngOnInit(): void {
   }
